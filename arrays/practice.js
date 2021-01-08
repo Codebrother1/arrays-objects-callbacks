@@ -91,7 +91,14 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 //Code Here
 
 function evenFinder(nums){
-return nums % 2 === 0 ? nums[1,3,4,5,8]: "alloDD"
+let arr = [];
+for(let i = 0; i < nums.length; i ++){
+  if(nums[i] % 2 === 0){
+    arr.push(nums[i]);
+
+}
+}
+return arr
 }
 
 
