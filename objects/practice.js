@@ -15,7 +15,12 @@
 */
 
 //Code here
+const me ={
+  name: "Terrance",
+  age: 46
 
+}
+alert(me.name)
 ////////// PROBLEM 2 //////////
 
 /*
@@ -24,6 +29,14 @@
 */
 
 //Code here
+const favoriteThings ={
+band: "The Roots",
+food: "Mexican",
+person: "Wife",
+book: "Autobiography of Malcolm X ",
+movie: "Autman in New York",
+holiday: "Christmas"
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -31,6 +44,8 @@
 */
 
 //Code here
+favoriteThings.car = "S550";
+favoriteThings.brand = "Benz"
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -38,6 +53,8 @@
 */
 
 //Code here
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter"
 
 ////////// PROBLEM 3 //////////
 
@@ -50,13 +67,18 @@
 */
 
 //Code here
+const backPack = {};
+let item = "firstPocket";
+backPack.item = "firstPocket"
+
+backPack.color = "Green"
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+alert(backPack)
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -64,7 +86,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack)
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
@@ -85,6 +107,8 @@ var user2 = {
 */
 
 //Code Here
+user2.name ='Bryan G. Smith';
+user2.email = 'bryan.smith@devmounta.in';
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
