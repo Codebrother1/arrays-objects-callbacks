@@ -28,6 +28,9 @@
 */
 
 // Code Here 
+var first = function(array, cb){
+  cb(array[0]);
+}
 
 // Do not edit the code below.
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
@@ -48,6 +51,9 @@ first(names, function(firstName){
 */
 
 //Code Here
+var last = function(array, cb){
+  cb(array[-1]);
+}
 
 // Do not edit the code below.
 last(names, function(lastName){
@@ -66,6 +72,9 @@ last(names, function(lastName){
 */
 
 //Code Here
+var  multiply= function(num1, num2, cb){
+  cb(multiply(2,3));
+}
 
 // Do not edit the code below.
 multiply(4, 3, function(answer){
